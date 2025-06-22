@@ -30,7 +30,6 @@ class Solution {
                     closestsum = sum;
                     if (distance == 0) return closestsum;
                 }
-
                 if (sum < target) {
                     left++;
                 } else {
@@ -38,7 +37,6 @@ class Solution {
                 }
             }
         }
-
         return closestsum;
     }
 }
